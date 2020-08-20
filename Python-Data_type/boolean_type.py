@@ -1,5 +1,4 @@
 # Boolean  참 / 거짓
-
 print(5 > 10)  # 거짓 Result = False
 print(5 < 10)  # 참   Result = True
 print(True)
