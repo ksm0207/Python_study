@@ -8,16 +8,16 @@
 #                  (nav)                (5)             (1)        (1)
 # 생성된 비밀번호 : nav51!
 
-url = "http://google.com"
+url = "http://github.com"
 
 exist = url.replace("http://", "")
 print(exist)
 exist = exist[:6]
 print(exist)
-g_password = exist[:3] + str(len(exist)) + str(exist.count("e")) + "!"
+exist2 = exist[:3] + str(len(exist)) + str(exist.count("i")) + "!@"
+print(exist2)
 
-print("{url} 의 비밀번호는 {g_password} 입니다".format(url=url, g_password=g_password))
-
+print(f"{url}", "의 비밀번호는:", exist2, "입니다")
 
 # email = "http://naver.com"
 # my_str = email.replace("http://", "")  # 규칙1
