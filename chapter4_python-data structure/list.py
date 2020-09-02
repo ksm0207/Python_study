@@ -3,31 +3,16 @@
 my_phone = ["아이폰8", "아이폰8+", "아이폰11"]
 print("나의 핸드폰은", my_phone[1], "이고", my_phone.index("아이폰8+"), "번째 위치에 있습니다")
 # 조건 1 배열속에 객체를 넣고 위치를 찾아보자
-coffee = ["아메리카노", "콜드브루", "라떼한잔"]
-print(
-    "메뉴 : ",
-    coffee,
-    "가장 좋아하는 커피는",
-    coffee[2],
-    "이고",
-    coffee.index("콜드브루"),
-    "번째 위치에 놓여있습니다.",
-)
 
 
 # 기기 종류를 추가해보자.
 my_phone.append("갤럭시노트20")  # append는 맨뒤에 더한다는 의미
 print(my_phone)
 
-coffee.append("카라멜 마끼야또")
-print(coffee)
 
 # 기기 종류를 아이폰8 / 아이폰8+ 중간에 추가해보자
 my_phone.insert(2, "아이폰9")
 print(my_phone)
-
-coffee.insert(2, "카라멜 마끼야또")
-print(coffee)
 
 
 # 기기를 하나씩 뒤에서부터 삭제하기

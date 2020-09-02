@@ -29,13 +29,13 @@ from random import *
 users = range(1, 21)
 users = list(users)
 shuffle(users)
-print("테스트1", users)
-print("샘플:", sample(users, 1))
-
+print(users)
+winning = sample(users, 4)
+print(winning)
 
 print(" -- 당첨자 발표 --")
-print("치킨 당첨자:", sample(users, 1), "님")
-print("커피당첨자", users.difference(sample(users, 3)))
+print("치킨 당첨자:{0}".format(winning[0]))
+print("커피 당첨자:{0}".format(winning[1:]))
 print(" -- 축하합니다 --")
 
 # python_developer = set(["Sungmin", "Dongjin"])
