@@ -11,7 +11,7 @@ print(my_phone)
 
 
 # 기기 종류를 아이폰8 / 아이폰8+ 중간에 추가해보자
-my_phone.insert(2, "아이폰9")
+my_phone.insert(2, "아이폰10")
 print(my_phone)
 
 
