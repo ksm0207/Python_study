@@ -35,7 +35,7 @@ print(winning)
 
 print(" -- 당첨자 발표 --")
 print("치킨 당첨자:{0}".format(winning[0]))
-print("커피 당첨자:{0}".format(winning[1:]))
+print("커피 당첨자:{0}".format(winning[1:]))  # (1부터) 1 2 3 위치에 있는 값을 가져옴
 print(" -- 축하합니다 --")
 
 # python_developer = set(["Sungmin", "Dongjin"])
