@@ -29,4 +29,3 @@ print("python 개발자 총인원: ", python_developer)
 # java를 잊었어요
 java_developer.remove("Yeonwoo")
 print("java 개발자 현재 남은 인원 :", java_developer)
-
