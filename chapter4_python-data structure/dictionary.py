@@ -18,7 +18,7 @@ print(10 in phone)  # False
 # 위의 정수형 으로 아닌 String 으로 값을 가져와보자
 phone2 = {"A-201": "iphone8", 100: "iphone8+"}  # {}를 열어 진행 숫자는 key 를 의미하며 다음은 value를 뜻함
 print("기존데이터:", phone2)
-phone2["A-201"] = "Samsung"  # 기존 key와 value 값 대체
+phone2["A-201"] = "Apple"  # 기존 key와 value 값 대체
 phone2["C-500"] = "Update Object"  # 객체 업데이트
 print("변경된데이터:", phone2)
 
