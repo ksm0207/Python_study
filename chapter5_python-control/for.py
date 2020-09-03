@@ -7,7 +7,7 @@
 # print("Test : {0}".format(count))
 
 
-lunch = ["돈까스", "제육덮밥", "치즈라면", "자장면", "탕수육"]
+lunch = ["돈까스", "제육덮밥", "치즈라면", "자장면",]
 
 for start_lunch in lunch:
     print("오늘의 메뉴:" "{0}".format(start_lunch))
