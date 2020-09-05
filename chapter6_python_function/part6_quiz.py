@@ -18,14 +18,15 @@ def std_weight(height, gender):
 
     if gender == "남자":
         return height * height * 22
-    elif gender == "여자":
+    elif gender2 == "여자":
         return height * height * 21
 
 
-height = 175  # cm
+stature = int(input("키 입력:"))  # cm
+height = int(input("체중 입력: "))  # cm
 gender = "남자"
-weight = round(std_weight(height / 100, gender), 2)
-print(" 키 {0}cm {1} 표준 체중은 {2}kg입니다".format(height, gender, weight))
+weight = round(std_weight(stature / 100, gender), 2)
+print(" 키 {0}cm {1} 표준 체중은 {2}kg입니다".format(stature, gender, weight))
 gender2 = "여자"
 weight2 = round(std_weight(height / 100, gender2), 2)
-print(" 키 {0}cm {1} 표준 체중은 {2}kg입니다".format(height, gender2, weight2))
+print(" 키 {0}cm {1} 표준 체중은 {2}kg입니다".format(stature, gender2, weight2))
