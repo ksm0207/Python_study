@@ -28,5 +28,5 @@ gender = "남자"
 weight = round(std_weight(stature / 100, gender), 2)
 print(" 키 {0}cm {1} 표준 체중은 {2}kg입니다".format(stature, gender, weight))
 gender2 = "여자"
-weight2 = round(std_weight(height / 100, gender2), 2)
+weight2 = round(std_weight(stature / 100, gender2), 2)
 print(" 키 {0}cm {1} 표준 체중은 {2}kg입니다".format(stature, gender2, weight2))
