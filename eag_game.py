@@ -54,6 +54,7 @@ while True:
             print("남은 목숨 ", u_heart, "개\n")
 
     # 사용자의 목숨이 0 일경우
+    if u_heart == 0:
         print("당신은 패배하였습니다")
         print(f"최종 라운드는  {r_count}  라운드 입니다 !!")
         break
