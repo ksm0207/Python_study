@@ -1,5 +1,6 @@
 from random import *
 
+
 lists = []
 
 ran_num = randint(0, 9)
