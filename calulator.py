@@ -19,6 +19,7 @@ while True:
     input3 = int(input("세번째 숫자 입력  "))
 
     input_list = [input1, input2, input3]
+    print("input_list =", input_list)
 
     s = 0
 
